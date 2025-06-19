@@ -1,9 +1,16 @@
 # OrcaTek Solutions Website
 
-This is a React-based website for OrcaTek Solutions, a BPO company offering a wide range of services.
+This is the official website for OrcaTek Solutions, offering services in:
 
-## Setup Instructions
+- Data Entry
+- Data Processing
+- Transcription
+- Back Office Support
+- Content Moderation
+- Market Research
+- Customer Support
+- HR Support
 
-1. Run `npm install`
-2. Run `npm start`
-3. Visit `http://localhost:3000`
+---
+
+🔄 Updated by Neelorcatek — 2025-06-19
