@@ -46,3 +46,63 @@ body, html, #root {
 .nav-links a:hover {
   color: #ffcc00;
 }
+
+.contact-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;  /* this will keep everything aligned at the top */
+  margin-bottom: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.contact-form input {
+  flex: 1 1 200px;
+  min-width: 200px;
+  max-width: 250px;
+}
+
+.contact-form textarea {
+  flex: 2 1 350px;
+  min-width: 350px;
+  resize: vertical;
+}
+
+.contact-form button {
+  padding: 0.3rem 1.5rem;
+  margin-left: 1rem;
+  background: #1f2937;        /* Navy background */
+  color: #ffe600;             /* Bright yellow text */
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-form button:hover {
+  background: #222b38;        /* Slightly lighter navy on hover */
+  color: #ffcc00;             /* Brighter yellow on hover */
+}
+
+.portfolio-list {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.portfolio-item {
+  background: #f6f8fa;
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
